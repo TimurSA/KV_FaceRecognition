@@ -21,5 +21,6 @@ KV_FaceRecognition — это модель компьютерного зрени
 - Других приложений, где необходимо распознавание эмоций по лицам
 
 ## Примечание:
-Для использования KV_FaceRecognition_V4.ipynb требуется NVIDEA CUDA 12.3. Поэтому я создал KV_Model_Test.ipynb, где можно протестировать модель в режиме реального времени. 
+Для использования KV_FaceRecognition_V4.ipynb требуется NVIDEA CUDA 12.3. Поэтому я создал KV_Model_Test.ipynb, где можно протестировать модель в режиме реального времени(Будеть работать на CPU, а не GPU). 
 Весы модели можно взять по ссылке: https://drive.google.com/drive/folders/1cDgMqHmqHf20Gv1rU29wXEwzlXrtIeAD?usp=drive_link
+Ну или же скачать KV_Model_Test.exe(Будеть работать на CPU, а не GPU).
