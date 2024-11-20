@@ -3,7 +3,8 @@ from collections import Counter
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
-
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+ 
 # Функция для построения графиков потерь и точности
 def plot_metrics(train_losses, val_losses, train_accuracies, val_accuracies):
     epochs = range(1, len(train_losses) + 1)
